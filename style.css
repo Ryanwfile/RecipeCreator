@@ -1,0 +1,48 @@
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.column {
+  display: block;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  border: 1px dotted red;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.list li {
+  margin: 10px;
+}
+
+.remove {
+  display: none;
+}
+
+.recipe {
+  cursor: pointer;
+}
+
+.button {
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: #19194d;
+  color: #ececf9;
+}
+
+.button:hover {
+  cursor: pointer;
+}
